@@ -25,6 +25,7 @@ class resolver {
 	}
 }
 ?>
+//example
 <?php
 $resolver=new resolver();
 $uuid=$resolver->resolveuuidlong("AlpixYT");
