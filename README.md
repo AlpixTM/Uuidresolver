@@ -2,8 +2,8 @@
 # Uuidresolver.php
 Nutzung
 
-(Außerhalb auf anderen .php Scripten z.B.: index,php) 
-<?php
+(Außerhalb auf anderen .php Scripten z.B.: index,php)   
+<?php  
 include_once 'uuidresolver.php';  
 $resolver=new resolver();   
 $uuid=$resolver->resolveuuidlong("AlpixYT");  
