@@ -11,5 +11,7 @@ Nutzung
         echo $uuid;   
         $uuid=$resolver->resolveuuidshort("AlpixYT");  
         echo $uuid;
+        $uuid = $resolver->resoveuuidboth("AlpixYT");
+        echo $uuid;
         ?>  
 Soltest du vergessen einen Nutzernamen anzugeben, wird automatisch Alpix genutzt, um Fehler zu vermeiden :]  
